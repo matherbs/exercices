@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  width: 100%;
+}
+
+header {
+width: 100%;
+height: 100px;
+background-color: red;
+}
+
+section {
+position: absolute;
+top: 100px;
+bottom: 100px;
+width: 100%;
+background-color: green;
+overflow: auto;
+}
+
+section p {
+  padding: 50px;
+}
+
+footer {
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 100px;
+background-color: blue;
+}

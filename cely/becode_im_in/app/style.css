@@ -1,0 +1,153 @@
+/*Defautls*/
+html,body{
+  display: block;
+  width: 100%; height: 100%;
+  overflow: hidden;
+  font-family: 'Lato', sans-serif;
+}
+li{list-style: none;}
+a{text-decoration: none;}
+
+/* Reset */
+html{
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0; padding: 0;
+}
+
+/*Becode Logo*/
+.becode-logo{
+	display: inline-block;
+	text-align: center;
+	font-size: 36px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 100;
+	color: #15232e;
+	text-decoration: none; 
+}
+.becode-logo .code{
+	color: #61c2d0;
+}
+
+/*Alignements*/
+.align-left{
+	text-align: left;
+}
+.align-center{
+	text-align: center;
+}
+.align-right{
+	text-align: right;
+}
+
+
+/*List*/
+.list{
+	display: block;
+	width: 100%;
+	margin: 20px 0;
+}
+.list .list-header{
+	display: block;
+	width: 100%;
+	font-size: 24px;
+	text-align: center;
+	color: #494949;
+}
+.list .list-content{
+	display: block;
+	width: 100%;
+	margin: 10px 0;
+}
+.list .list-item{
+	position: relative;
+	display: block;
+	width: 100%; height: 100px;
+	margin: 5px 0;
+	padding: 5px;
+	border: 1px dotted #444;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.list .list-item .item-title{
+	display: block;
+	width: 100%; height: 100%;
+	line-height: 40px;
+	color: #494949;
+}
+.list .list-item .item-actions{
+	position: absolute;
+	display: block;
+	right: 5px; top: 60px;
+}
+
+/*Buttons*/
+.action{
+	display: inline-block;
+	width: 80px; height: 30px;
+	margin: 0 5px;
+	border: none;
+	text-align: center;
+	background-color: #fff;
+	color: #444;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.action-green{
+	background-color: #5C9A4F;
+	color: #fff;
+}
+.action-blue{
+	background-color: #2B4D71;
+	color: #fff;
+}
+.action-yellow{
+	background-color: #E7AE5F;
+	color: #fff;
+}
+.action-red{
+	background-color: #e53d3d;
+	color: #fff;
+}
+
+.main{
+	position: absolute;
+	display: block;
+	top: 0; left: 0; right: 0; bottom: 0;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch; /* lets it scroll lazy */
+	overflow-x: hidden;
+	padding: 60px;
+}
+.main-header{
+	display: block;
+	width: 100%;
+	padding: 10px 0;
+	background-color: #fff;
+}
+.main-content{
+	display: block;
+	padding: 40px 0; 
+}
+
+.main-title{
+	display: block;
+	margin: 0;
+	margin-right: -115px; 
+	color: #494949;
+	font-size: 24px;
+	font-weight: 200;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+button[data-former-selected="true"],
+button[data-team-selected="true"]{
+	background-color: #5C9A4F;
+	pointer-events: none;
+	cursor: default;
+}
